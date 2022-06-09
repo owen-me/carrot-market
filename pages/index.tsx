@@ -3,8 +3,10 @@ import type { NextPage } from 'next';
 const Home: NextPage = () => {
   return (
     <div className="bg-slate-400 xl:place-content-center py-20 px-20 grid gap-10 xl:grid-cols-3 lg:grid-cols-2 min-h-screen">
-      <div className="bg-white p-6 rounded-3xl shadow-xl">
-        <span className="font-semibold text-2xl">Select Item</span>
+      <div className="bg-white dark:bg-black p-6 rounded-3xl shadow-xl">
+        <span className="font-semibold dark:text-white text-2xl">
+          Select Item
+        </span>
         <ul>
           <div className="flex justify-between my-2 ">
             <span className="text-gray-500">Grey Chair</span>
